@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Careers - CC O'Secret</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-palette"></i>
+    </div>
+    <div class="theme-selector">
+        <button class="theme-option active" data-theme="default">Cyber Default</button>
+        <button class="theme-option" data-theme="light-contrast">Light High Contrast</button>
+        <button class="theme-option" data-theme="dark-contrast">Dark High Contrast</button>
+        <button class="theme-option" data-theme="water-glass">Water Glass</button>
+    </div>
+
+    <!-- Enhanced Futuristic Elements -->
+    <div class="cyber-grid"></div>
+    <div class="particle-network" id="particleNetwork"></div>
+
+    <div class="animated-bg"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">CC O'Secret</span>
+                <div class="logo-glow"></div>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="team.html" class="nav-link">Team</a>
+                <a href="careers.html" class="nav-link active">Careers</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="careers-hero">
+        <div class="container">
+            <h1 class="page-title">Join Our Mission</h1>
+            <p class="page-subtitle">Build the future with us</p>
+        </div>
+    </section>
+
+    <section class="careers-content">
+        <div class="container">
+            <!-- Careers Introduction -->
+            <div class="careers-intro">
+                <div class="intro-grid">
+                    <div class="intro-text">
+                        <h2>Shape the Future of Technology</h2>
+                        <p>
+                            We're not just building products—we're crafting the future. At CC O'Secret, 
+                            we believe in the power of technology to transform lives and create meaningful impact. 
+                            Join our team of visionaries and help us push the boundaries of what's possible.
+                        </p>
+                        <div class="intro-stats">
+                            <div class="intro-stat">
+                                <div class="stat-number">15+</div>
+                                <div class="stat-label">Open Positions</div>
+                            </div>
+                            <div class="intro-stat">
+                                <div class="stat-number">8</div>
+                                <div class="stat-label">Countries</div>
+                            </div>
+                            <div class="intro-stat">
+                                <div class="stat-number">Flexible</div>
+                                <div class="stat-label">Work Options</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="intro-visual">
+                        <div class="careers-orb">
+                            <div class="orb-core"></div>
+                            <div class="orb-ring"></div>
+                            <div class="orb-particle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Benefits Section -->
+            <div class="benefits-section">
+                <h2 class="section-title text-center">Why Join Us?</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Cutting-Edge Tech</h3>
+                        <p>Work with the latest technologies and frameworks in a forward-thinking environment.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Collaborative Culture</h3>
+                        <p>Join a diverse team that values collaboration, creativity, and mutual growth.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>Continuous Learning</h3>
+                        <p>Access to training, conferences, and resources for professional development.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                        <h3>Health & Wellness</h3>
+                        <p>Comprehensive health benefits and wellness programs for all team members.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Rapid Growth</h3>
+                        <p>Opportunities for rapid career advancement and skill development.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Impact</h3>
+                        <p>Work on projects that reach millions of users worldwide.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Open Positions -->
+            <div class="positions-section">
+                <div class="section-header">
+                    <h2 class="section-title">Open Positions</h2>
+                    <div class="positions-filter">
+                        <button class="filter-btn active" data-filter="all">All Roles</button>
+                        <button class="filter-btn" data-filter="engineering">Engineering</button>
+                        <button class="filter-btn" data-filter="design">Design</button>
+                        <button class="filter-btn" data-filter="product">Product</button>
+                        <button class="filter-btn" data-filter="research">Research</button>
+                    </div>
+                </div>
+
+                <div class="positions-grid">
+                    <!-- Position 1 -->
+                    <div class="position-card" data-category="engineering">
+                        <div class="position-header">
+                            <div class="position-meta">
+                                <span class="position-department">Engineering</span>
+                                <span class="position-type">Full-time</span>
+                            </div>
+                            <div class="position-status new">
+                                <i class="fas fa-star"></i>
+                                New
+                            </div>
+                        </div>
+                        <h3 class="position-title">Senior Full-Stack Developer</h3>
+                        <p class="position-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Remote / San Francisco, CA
+                        </p>
+                        <p class="position-description">
+                            Lead the development of cutting-edge web applications using modern technologies. 
+                            Mentor junior developers and drive technical excellence across the team.
+                        </p>
+                        <div class="position-tags">
+                            <span class="position-tag">JavaScript</span>
+                            <span class="position-tag">React</span>
+                            <span class="position-tag">Node.js</span>
+                            <span class="position-tag">AWS</span>
+                        </div>
+                        <div class="position-actions">
+                            <a href="#" class="btn btn-primary btn-small">
+                                <span>Apply Now</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-small">
+                                <span>View Details</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Position 2 -->
+                    <div class="position-card" data-category="design">
+                        <div class="position-header">
+                            <div class="position-meta">
+                                <span class="position-department">Design</span>
+                                <span class="position-type">Full-time</span>
+                            </div>
+                            <div class="position-status urgent">
+                                <i class="fas fa-exclamation"></i>
+                                Urgent
+                            </div>
+                        </div>
+                        <h3 class="position-title">UI/UX Designer</h3>
+                        <p class="position-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            New York, NY / Hybrid
+                        </p>
+                        <p class="position-description">
+                            Create intuitive and beautiful user experiences for our product suite. 
+                            Conduct user research and translate insights into compelling designs.
+                        </p>
+                        <div class="position-tags">
+                            <span class="position-tag">Figma</span>
+                            <span class="position-tag">User Research</span>
+                            <span class="position-tag">Prototyping</span>
+                            <span class="position-tag">Design Systems</span>
+                        </div>
+                        <div class="position-actions">
+                            <a href="#" class="btn btn-primary btn-small">
+                                <span>Apply Now</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-small">
+                                <span>View Details</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Position 3 -->
+                    <div class="position-card" data-category="engineering">
+                        <div class="position-header">
+                            <div class="position-meta">
+                                <span class="position-department">Engineering</span>
+                                <span class="position-type">Internship</span>
+                            </div>
+                            <div class="position-status">
+                                Summer 2025
+                            </div>
+                        </div>
+                        <h3 class="position-title">AI Engineering Intern</h3>
+                        <p class="position-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Boston, MA / Remote
+                        </p>
+                        <p class="position-description">
+                            Work with our AI research team to develop machine learning models and 
+                            contribute to cutting-edge artificial intelligence projects.
+                        </p>
+                        <div class="position-tags">
+                            <span class="position-tag">Python</span>
+                            <span class="position-tag">TensorFlow</span>
+                            <span class="position-tag">Machine Learning</span>
+                            <span class="position-tag">Research</span>
+                        </div>
+                        <div class="position-actions">
+                            <a href="#" class="btn btn-primary btn-small">
+                                <span>Apply Now</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-small">
+                                <span>View Details</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Position 4 -->
+                    <div class="position-card" data-category="product">
+                        <div class="position-header">
+                            <div class="position-meta">
+                                <span class="position-department">Product</span>
+                                <span class="position-type">Full-time</span>
+                            </div>
+                            <div class="position-status new">
+                                <i class="fas fa-star"></i>
+                                New
+                            </div>
+                        </div>
+                        <h3 class="position-title">Product Manager</h3>
+                        <p class="position-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Austin, TX / Remote
+                        </p>
+                        <p class="position-description">
+                            Drive product strategy and execution for our flagship platform. 
+                            Work closely with engineering, design, and business teams to deliver exceptional products.
+                        </p>
+                        <div class="position-tags">
+                            <span class="position-tag">Product Strategy</span>
+                            <span class="position-tag">Agile</span>
+                            <span class="position-tag">User Stories</span>
+                            <span class="position-tag">Roadmapping</span>
+                        </div>
+                        <div class="position-actions">
+                            <a href="#" class="btn btn-primary btn-small">
+                                <span>Apply Now</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-small">
+                                <span>View Details</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Position 5 -->
+                    <div class="position-card" data-category="research">
+                        <div class="position-header">
+                            <div class="position-meta">
+                                <span class="position-department">Research</span>
+                                <span class="position-type">Full-time</span>
+                            </div>
+                            <div class="position-status">
+                                PhD Preferred
+                            </div>
+                        </div>
+                        <h3 class="position-title">Research Scientist</h3>
+                        <p class="position-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Cambridge, MA
+                        </p>
+                        <p class="position-description">
+                            Conduct groundbreaking research in computer vision and natural language processing. 
+                            Publish papers and contribute to open-source AI projects.
+                        </p>
+                        <div class="position-tags">
+                            <span class="position-tag">Computer Vision</span>
+                            <span class="position-tag">NLP</span>
+                            <span class="position-tag">PyTorch</span>
+                            <span class="position-tag">Research</span>
+                        </div>
+                        <div class="position-actions">
+                            <a href="#" class="btn btn-primary btn-small">
+                                <span>Apply Now</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-small">
+                                <span>View Details</span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Position 6 -->
+                    <div class="position-card" data-category="engineering">
+                        <div class="position-header">
+                            <div class="position-meta">
+                                <span class="position-department">Engineering</span>
+                                <span class="position-type">Contract</span>
+                            </div>
+                            <div class="position-status">
+                                6-Month Contract
+                            </div>
+                        </div>
+                        <h3 class="position-title">DevOps Engineer</h3>
+                        <p class="position-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            Remote
+                        </p>
+                        <p class="position-description">
+                            Design and implement scalable infrastructure solutions. 
+                            Optimize CI/CD pipelines and ensure system reliability and security.
+                        </p>
+                        <div class="position-tags">
+                            <span class="position-tag">Kubernetes</span>
+                            <span class="position-tag">Docker</span>
+                            <span class="position-tag">AWS</span>
+                            <span class="position-tag">CI/CD</span>
+                        </div>
+                        <div class="position-actions">
+                            <a href="#" class="btn btn-primary btn-small">
+                                <span>Apply Now</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="#" class="btn btn-secondary btn-small">
+                                <span>View Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Application Process -->
+            <div class="process-section">
+                <h2 class="section-title text-center">Our Hiring Process</h2>
+                <div class="process-timeline">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Application Review</h3>
+                            <p>We carefully review each application and portfolio to find the best matches for our team.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Initial Interview</h3>
+                            <p>A casual conversation to learn about your background, skills, and career aspirations.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Technical Assessment</h3>
+                            <p>A practical challenge or discussion to showcase your technical abilities and problem-solving skills.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <div class="step-content">
+                            <h3>Team Interview</h3>
+                            <p>Meet the team and discuss how you can contribute to our projects and culture.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">5</div>
+                        <div class="step-content">
+                            <h3>Offer</h3>
+                            <p>We extend an offer to exceptional candidates who align with our vision and values.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- General Application -->
+            <div class="general-application">
+                <div class="application-content">
+                    <h2>Don't See the Perfect Role?</h2>
+                    <p>
+                        We're always looking for talented individuals who share our passion for innovation. 
+                        If you don't see a position that matches your skills, we'd still love to hear from you.
+                    </p>
+                    <a href="contact.html" class="btn btn-primary">
+                        <span>Send General Application</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Rotating Footer -->
+    <footer class="futuristic-footer">
+        <div class="footer-glitch"></div>
+        <div class="matrix-rain"></div>
+        <div class="hologram-effect"></div>
+        
+        <div class="footer-container">
+            <!-- Rotating Sections -->
+            <div class="footer-rotating-sections">
+                <!-- Section 1: Time & System Status -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h2 class="section-title">System Status</h2>
+                        
+                        <!-- Time Display -->
+                        <div class="time-display">
+                            <div class="digital-clock">
+                                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+                                <span id="ampm" class="ampm"></span>
+                            </div>
+                            <div class="date-display">
+                                <span id="weekday"></span>, 
+                                <span id="month"></span> 
+                                <span id="day"></span>, 
+                                <span id="year"></span>
+                            </div>
+                            <div class="timezone-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span id="timezone">Detecting timezone...</span>
+                            </div>
+                        </div>
+                        
+                        <!-- System Information -->
+                        <div class="system-info">
+                            <div class="system-item">
+                                <span class="system-label">Uptime:</span>
+                                <span class="system-value" id="uptime">00:00:00</span>
+                            </div>
+                            <div class="system-item">
+                                <span class="system-label">Connectivity:</span>
+                                <span class="system-value online" id="connectivity">Online</span>
+                            </div>
+                            <div class="system-item">
+                                <span class="system-label">Location:</span>
+                                <span class="system-value" id="location">Detecting...</span>
+                            </div>
+                        </div>
+                        
+                        <div class="time-format-toggle">
+                            <button class="format-btn active" data-format="12h">12H</button>
+                            <button class="format-btn" data-format="24h">24H</button>
+                            <button class="format-btn" data-format="military">Military</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Projects Showcase -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h2 class="section-title">Innovative Projects</h2>
+                        <p class="section-description">
+                            From responsive web applications to AI-powered solutions and immersive gaming experiences. 
+                            Each project represents a unique challenge and innovative solution.
+                        </p>
+                        <a href="projects.html" class="section-cta">
+                            <i class="fas fa-eye"></i>
+                            View Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 3: Technology Stack -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h2 class="section-title">Tech Arsenal</h2>
+                        <p class="section-description">
+                            Mastering modern technologies including JavaScript, Python, React, Node.js, and more. 
+                            Continuously learning and adapting to emerging tools and frameworks.
+                        </p>
+                        <a href="about.html" class="section-cta">
+                            <i class="fas fa-cogs"></i>
+                            See Skills
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 4: Collaboration -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h2 class="section-title">Let's Collaborate</h2>
+                        <p class="section-description">
+                            Ready to bring your ideas to life? Let's create something amazing together. 
+                            Whether it's a startup project or enterprise solution, I'm here to help.
+                        </p>
+                        <a href="contact.html" class="section-cta">
+                            <i class="fas fa-comments"></i>
+                            Start Conversation
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Indicators -->
+            <div class="section-indicators">
+                <div class="section-indicator" data-section="0"></div>
+                <div class="section-indicator" data-section="1"></div>
+                <div class="section-indicator" data-section="2"></div>
+                <div class="section-indicator" data-section="3"></div>
+            </div>
+
+            <!-- Static Bottom Footer -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        &copy; 2025 CC O'Secret. All Rights Reserved.
+                    </div>
+                    
+                    <div class="system-status">
+                        <div class="status-indicator"></div>
+                        <span class="status-text">System Online</span>
+                    </div>
+                    
+                    <div class="footer-cta">
+                        <a href="contact.html" class="cta-button">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <a href="projects.html" class="cta-button">
+                            <i class="fas fa-briefcase"></i>
+                            View Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/theme-toggle.js"></script>
+    <script>
+        // Careers page specific JavaScript
+        document.addEventListener('DOMContentLoaded', function() {
+            // Position filtering
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const positionCards = document.querySelectorAll('.position-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Update active button
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter positions
+                    positionCards.forEach(card => {
+                        if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 100);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+
+            // Animated orb
+            const orb = document.querySelector('.careers-orb');
+            if (orb) {
+                setInterval(() => {
+                    orb.style.transform = `rotate(${Math.random() * 360}deg) scale(${0.9 + Math.random() * 0.2})`;
+                }, 3000);
+            }
+        });
+    </script>
+</body>
+</h

@@ -1,0 +1,15 @@
+portfolio-website/
+├── index.html
+├── about.html
+├── projects.html
+├── contact.html
+├── team.html
+├── careers.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── script.js
+│   ├── footer.js
+│   └── theme-toggle.js
+└── assets/
+    └── (images and icons)

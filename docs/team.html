@@ -1,0 +1,490 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team - CC O'Secret</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+    <div class="theme-toggle">
+        <i class="fas fa-palette"></i>
+    </div>
+    <div class="theme-selector">
+        <button class="theme-option active" data-theme="default">Cyber Default</button>
+        <button class="theme-option" data-theme="light-contrast">Light High Contrast</button>
+        <button class="theme-option" data-theme="dark-contrast">Dark High Contrast</button>
+        <button class="theme-option" data-theme="water-glass">Water Glass</button>
+    </div>
+
+    <!-- Enhanced Futuristic Elements -->
+    <div class="cyber-grid"></div>
+    <div class="particle-network" id="particleNetwork"></div>
+
+    <div class="animated-bg"></div>
+    
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">CC O'Secret</span>
+                <div class="logo-glow"></div>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="projects.html" class="nav-link">Projects</a>
+                <a href="team.html" class="nav-link active">Team</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="team-hero">
+        <div class="container">
+            <h1 class="page-title">Our Team</h1>
+            <p class="page-subtitle">The brilliant minds behind the innovation</p>
+        </div>
+    </section>
+
+    <section class="team-content">
+        <div class="container">
+            <!-- Team Introduction -->
+            <div class="team-intro">
+                <h2 class="text-center mb-2">Collaborative Excellence</h2>
+                <p class="text-center mb-3" style="max-width: 800px; margin: 0 auto; color: var(--text-secondary);">
+                    We are a diverse collective of innovators, creators, and problem-solvers united by our passion for technology 
+                    and our commitment to pushing the boundaries of what's possible. Each member brings unique expertise 
+                    and perspectives to create exceptional digital experiences.
+                </p>
+            </div>
+
+            <!-- Core Team Grid -->
+            <div class="team-grid">
+                <!-- Team Member 1 -->
+                <div class="team-member-card">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <div class="avatar-glitch"></div>
+                            <div class="avatar-main">
+                                <i class="fas fa-user-astronaut"></i>
+                            </div>
+                            <div class="avatar-hologram"></div>
+                        </div>
+                        <div class="member-status">
+                            <div class="status-indicator online"></div>
+                            <span>Available</span>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Alex Chen</h3>
+                        <p class="member-role">Lead Developer & Architect</p>
+                        <p class="member-bio">
+                            Full-stack developer with expertise in modern web technologies. 
+                            Passionate about creating scalable solutions and mentoring team members.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">AWS</span>
+                        </div>
+                        <div class="member-contact">
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 2 -->
+                <div class="team-member-card">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <div class="avatar-glitch"></div>
+                            <div class="avatar-main">
+                                <i class="fas fa-user-ninja"></i>
+                            </div>
+                            <div class="avatar-hologram"></div>
+                        </div>
+                        <div class="member-status">
+                            <div class="status-indicator busy"></div>
+                            <span>In Meeting</span>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Maya Rodriguez</h3>
+                        <p class="member-role">UI/UX Designer & Creative Director</p>
+                        <p class="member-bio">
+                            Visionary designer focused on creating intuitive user experiences 
+                            and stunning visual interfaces that bridge form and function.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Figma</span>
+                            <span class="skill-tag">Adobe Creative</span>
+                            <span class="skill-tag">Prototyping</span>
+                            <span class="skill-tag">User Research</span>
+                        </div>
+                        <div class="member-contact">
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 3 -->
+                <div class="team-member-card">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <div class="avatar-glitch"></div>
+                            <div class="avatar-main">
+                                <i class="fas fa-user-robot"></i>
+                            </div>
+                            <div class="avatar-hologram"></div>
+                        </div>8
+                        <div class="member-status">
+                            <div class="status-indicator online"></div>
+                            <span>Available</span>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Dr. Kenji Tanaka</h3>
+                        <p class="member-role">AI Research Scientist</p>
+                        <p class="member-bio">
+                            Machine learning expert specializing in neural networks and predictive analytics. 
+                            Leads our AI initiatives and research projects.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">TensorFlow</span>
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Data Science</span>
+                        </div>
+                        <div class="member-contact">
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fas fa-graduation-cap"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Team Member 4 -->
+                <div class="team-member-card">
+                    <div class="member-visual">
+                        <div class="member-avatar">
+                            <div class="avatar-glitch"></div>
+                            <div class="avatar-main">
+                                <i class="fas fa-user-secret"></i>
+                            </div>
+                            <div class="avatar-hologram"></div>
+                        </div>
+                        <div class="member-status">
+                            <div class="status-indicator away"></div>
+                            <span>Remote</span>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">Sarah Johnson</h3>
+                        <p class="member-role">DevOps & Security Engineer</p>
+                        <p class="member-bio">
+                            Infrastructure specialist ensuring our systems are secure, scalable, and reliable. 
+                            Expert in cloud architecture and cybersecurity.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">Security</span>
+                            <span class="skill-tag">CI/CD</span>
+                        </div>
+                        <div class="member-contact">
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="contact-link">
+                                <i class="fas fa-shield-alt"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Stats -->
+            <div class="team-stats">
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="15">0</div>
+                            <div class="stat-label">Team Members</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="8">0</div>
+                            <div class="stat-label">Countries</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="47">0</div>
+                            <div class="stat-label">Projects</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-number" data-count="12">0</div>
+                            <div class="stat-label">Technologies</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Team Culture Section -->
+            <div class="team-culture">
+                <div class="culture-grid">
+                    <div class="culture-item">
+                        <div class="culture-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Innovation First</h3>
+                        <p>We embrace cutting-edge technologies and methodologies to stay ahead of the curve.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h3>Collaborative Spirit</h3>
+                        <p>We believe in the power of teamwork and cross-functional collaboration.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Continuous Growth</h3>
+                        <p>We invest in learning and development to constantly evolve our skills.</p>
+                    </div>
+                    <div class="culture-item">
+                        <div class="culture-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3>Passion Driven</h3>
+                        <p>We're motivated by our love for technology and creating meaningful impact.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Join Team CTA -->
+            <div class="join-team-cta">
+                <div class="cta-content">
+                    <h2>Ready to Join Our Mission?</h2>
+                    <p>We're always looking for talented individuals who share our passion for innovation.</p>
+                    <div class="cta-buttons">
+                        <a href="career.html" class="btn btn-primary">
+                            <span>Open Positions</span>
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                        <a href="contact.html" class="btn btn-secondary">
+                            <span>Send Inquiry</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Rotating Footer -->
+    <footer class="futuristic-footer">
+        <div class="footer-glitch"></div>
+        <div class="matrix-rain"></div>
+        <div class="hologram-effect"></div>
+        
+        <div class="footer-container">
+            <!-- Rotating Sections -->
+            <div class="footer-rotating-sections">
+                <!-- Section 1: Time & System Status -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h2 class="section-title">System Status</h2>
+                        
+                        <!-- Time Display -->
+                        <div class="time-display">
+                            <div class="digital-clock">
+                                <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+                                <span id="ampm" class="ampm"></span>
+                            </div>
+                            <div class="date-display">
+                                <span id="weekday"></span>, 
+                                <span id="month"></span> 
+                                <span id="day"></span>, 
+                                <span id="year"></span>
+                            </div>
+                            <div class="timezone-info">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span id="timezone">Detecting timezone...</span>
+                            </div>
+                        </div>
+                        
+                        <!-- System Information -->
+                        <div class="system-info">
+                            <div class="system-item">
+                                <span class="system-label">Uptime:</span>
+                                <span class="system-value" id="uptime">00:00:00</span>
+                            </div>
+                            <div class="system-item">
+                                <span class="system-label">Connectivity:</span>
+                                <span class="system-value online" id="connectivity">Online</span>
+                            </div>
+                            <div class="system-item">
+                                <span class="system-label">Location:</span>
+                                <span class="system-value" id="location">Detecting...</span>
+                            </div>
+                        </div>
+                        
+                        <div class="time-format-toggle">
+                            <button class="format-btn active" data-format="12h">12H</button>
+                            <button class="format-btn" data-format="24h">24H</button>
+                            <button class="format-btn" data-format="military">Military</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Projects Showcase -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <h2 class="section-title">Innovative Projects</h2>
+                        <p class="section-description">
+                            From responsive web applications to AI-powered solutions and immersive gaming experiences. 
+                            Each project represents a unique challenge and innovative solution.
+                        </p>
+                        <a href="projects.html" class="section-cta">
+                            <i class="fas fa-eye"></i>
+                            View Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 3: Technology Stack -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h2 class="section-title">Tech Arsenal</h2>
+                        <p class="section-description">
+                            Mastering modern technologies including JavaScript, Python, React, Node.js, and more. 
+                            Continuously learning and adapting to emerging tools and frameworks.
+                        </p>
+                        <a href="about.html" class="section-cta">
+                            <i class="fas fa-cogs"></i>
+                            See Skills
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Section 4: Collaboration -->
+                <div class="rotating-section">
+                    <div class="section-content">
+                        <div class="section-icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h2 class="section-title">Let's Collaborate</h2>
+                        <p class="section-description">
+                            Ready to bring your ideas to life? Let's create something amazing together. 
+                            Whether it's a startup project or enterprise solution, I'm here to help.
+                        </p>
+                        <a href="contact.html" class="section-cta">
+                            <i class="fas fa-comments"></i>
+                            Start Conversation
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Indicators -->
+            <div class="section-indicators">
+                <div class="section-indicator" data-section="0"></div>
+                <div class="section-indicator" data-section="1"></div>
+                <div class="section-indicator" data-section="2"></div>
+                <div class="section-indicator" data-section="3"></div>
+            </div>
+
+            <!-- Static Bottom Footer -->
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        &copy; 2025 CC O'Secret. All Rights Reserved.
+                    </div>
+                    
+                    <div class="system-status">
+                        <div class="status-indicator"></div>
+                        <span class="status-text">System Online</span>
+                    </div>
+                    
+                    <div class="footer-cta">
+                        <a href="contact.html" class="cta-button">
+                            <i class="fas fa-envelope"></i>
+                            Get In Touch
+                        </a>
+                        <a href="projects.html" class="cta-button">
+                            <i class="fas fa-briefcase"></i>
+                            View Work
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/theme-toggle.js"></script>
+</body>
+</html>
